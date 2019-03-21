@@ -1,0 +1,1 @@
+room_restart(); //quando o alarm1 for ativado, o room é reiniciado

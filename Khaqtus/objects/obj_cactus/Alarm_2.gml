@@ -1,0 +1,1 @@
+global.special = 1;
