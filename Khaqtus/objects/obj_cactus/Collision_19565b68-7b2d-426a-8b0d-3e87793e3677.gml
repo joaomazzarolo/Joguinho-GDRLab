@@ -1,11 +1,9 @@
+if(sprite_index == spr_cactus){
 lives-=1;
 
-with(obj_game){
-	alarm[1] = room_speed;
-}
-
-instance_destroy();
+sprite_index = spr_cactus_iframes;
+alarm[1] = room_speed*2;
 
 repeat(10)
-    instance_create_layer(x,y, "Instances", obj_debris); //cria escombros
-
+instance_create_layer(x,y, "Instances", obj_debris); //cria escombros
+}

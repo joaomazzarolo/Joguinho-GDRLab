@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "56c9b289-876b-4e5a-9c57-ec031af2cdca",
+            "Value": {
+                "id": "12a0f0f8-aa53-4eba-b243-482da5ff43bd",
+                "resourcePath": "sprites\\spr_cactus_iframes\\spr_cactus_iframes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6591c5d6-651e-44bc-bcfd-5bfcdfd38bdd",
             "Value": {
                 "id": "469a92f5-eeaf-4a25-9869-44aac9bfbc48",

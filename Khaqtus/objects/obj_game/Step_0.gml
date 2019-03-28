@@ -15,7 +15,7 @@ if(room == rm_game){ //se estiver em jogo executa o código abaixo
 	if(keyboard_check(ord("R"))){ //se "R" for pressionada o room é reiniciado
 	game_restart();
 	}
-if(score >= 1000){//se o score passar de 1000 o jogador é mandado para o room de vitória
+if(score >= 1500000){//se o score passar de 1000 o jogador é mandado para o room de vitória
 	room_goto(rm_win);
 }}
 		if(lives <=0){ //se as vidas acabarem antes do score chegar em 1000 o jogador é mandado para o room de derrota
