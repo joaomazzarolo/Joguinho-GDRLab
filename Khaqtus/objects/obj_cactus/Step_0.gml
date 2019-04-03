@@ -14,9 +14,12 @@ if(keyboard_check(vk_down)||keyboard_check(ord("S"))){ //verifica a seta para ba
     if(speed>0)
 	speed = 0; //freia a nave
 }
-if(keyboard_check_pressed(vk_space)){ //verifica se a barra de espaço está pressionada
+
+if(keyboard_check_pressed(vk_space)&&sprite_index!=spr_cactus_iframes){ //verifica se a barra de espaço está pressionada
+	sprite_index = spr_cactus_attack;
     var inst = instance_create_layer(x,y, "Instances", obj_bullet); //variável criada para pegar o ID dos tiros e criá-los
     inst.direction = image_angle; //tiros recebem a direção da "frente" do cacto
+	alarm[3] = room_speed/5;
 }
 
 if(keyboard_check_pressed(ord("Q")) && global.special==1){
@@ -73,3 +76,12 @@ health = 900;
 global.aux = 1;
 global.maxhealth = health;
 }
+
+if(sprite_index==spr_cactus_iframes&&image_alpha!=0)
+image_alpha = image_alpha - 0.05;
+
+if(sprite_index == spr_cactus_iframes && image_alpha==0)
+image_alpha = 1;
+
+if(sprite_index == spr_cactus)
+image_alpha = 1;
