@@ -1,13 +1,13 @@
-if (instance_exists(obj_cactus)&&score<=1000)
+if (instance_exists(obj_cactus)&&score<=4900)
 move_towards_point(obj_cactus.x, obj_cactus.y, 0.35);
 
-if (instance_exists(obj_cactus)&&score>1000&&score<=2500)
+if (instance_exists(obj_cactus)&&score>4900&&score<=14900)
 move_towards_point(obj_cactus.x, obj_cactus.y, 0.5);
 
-if (instance_exists(obj_cactus)&&score>2500&&score<=5000)
+if (instance_exists(obj_cactus)&&score>15000&&score<=29900)
 move_towards_point(obj_cactus.x, obj_cactus.y, 0.65);
 
-if (instance_exists(obj_cactus)&&score>5000&&score<=150000)
+if (instance_exists(obj_cactus)&&score>30000&&score<=150000)
 move_towards_point(obj_cactus.x, obj_cactus.y, 0.8);
 
 image_angle = direction;

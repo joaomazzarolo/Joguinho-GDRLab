@@ -17,7 +17,7 @@ if(keyboard_check(vk_down)||keyboard_check(ord("S"))){ //verifica a seta para ba
 
 if(keyboard_check_pressed(vk_space)&&sprite_index!=spr_cactus_iframes){ //verifica se a barra de espaço está pressionada
 	sprite_index = spr_cactus_attack;
-    var inst = instance_create_layer(x,y, "Instances", obj_bullet); //variável criada para pegar o ID dos tiros e criá-los
+    var inst = instance_create_layer(x+lengthdir_x(17,image_angle-71),y+lengthdir_y(17,image_angle-71), "Instances", obj_bullet); //variável criada para pegar o ID dos tiros e criá-los
     inst.direction = image_angle; //tiros recebem a direção da "frente" do cacto
 	alarm[3] = room_speed/5;
 }
