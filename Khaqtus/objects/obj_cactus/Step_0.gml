@@ -17,22 +17,21 @@ if(keyboard_check(vk_down)||keyboard_check(ord("S"))){ //verifica a seta para ba
 
 if(keyboard_check_pressed(vk_space)&&sprite_index!=spr_cactus_iframes){ //verifica se a barra de espaço está pressionada
 	sprite_index = spr_cactus_attack;
+	audio_play_sound(Cactus_shot_FX,1,0);
     var inst = instance_create_layer(x+lengthdir_x(17,image_angle-71),y+lengthdir_y(17,image_angle-71), "Instances", obj_bullet); //variável criada para pegar o ID dos tiros e criá-los
     inst.direction = image_angle; //tiros recebem a direção da "frente" do cacto
 	alarm[3] = room_speed/5;
 }
 
 if(keyboard_check_pressed(ord("Q")) && global.special==1){
-	repeat(3){
-	repeat(360){
+	repeat(180){
 	var inst = instance_create_layer(x,y, "Instances", obj_bullet); //variável criada para pegar o ID dos tiros e criá-los
     inst.direction = global.a //tiros recebem a direção da "frente" do cacto
-	global.a += 1;
-	}
+	global.a += 2;
 	}
 	
 global.special = 0;
-alarm[2] = room_speed*15;
+alarm[2] = room_speed*20;
 }
 
 if(speed>0&&!keyboard_check(vk_up)&&!keyboard_check(ord("W"))) //checa se o objeto está se movendo e se a tecla de andar não está pressionada

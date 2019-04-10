@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01c9cffa-dcb2-4c7e-a5a7-f7efc5a90c6b",
+            "Value": {
+                "id": "404416b6-7436-4467-b5e7-b7cf44c1682d",
+                "resourcePath": "sounds\\Win_ST\\Win_ST.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0abd0e17-9a23-4fea-b1f1-ef2e371f9e50",
             "Value": {
                 "id": "d4bbe77e-50f3-4a27-9ee7-1b480f671f2b",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "3cc623cb-2f0e-4bfd-bdeb-114b2f4133fb",
+            "Value": {
+                "id": "9d39f4af-ba64-41ae-af4d-5bb905fede38",
+                "resourcePath": "sounds\\Cactus_hurt_FX\\Cactus_hurt_FX.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4aeff7a5-c2d7-4737-b7cb-2405269c678c",
             "Value": {
                 "id": "44aabdb3-9920-4d81-92bd-d7a8b013d790",
@@ -167,11 +183,27 @@
             }
         },
         {
+            "Key": "771ae0a5-d9be-488e-b955-e5d923d9d5b2",
+            "Value": {
+                "id": "838f4da3-72e4-4fb4-8a97-cfd568554402",
+                "resourcePath": "sprites\\spr_win_background\\spr_win_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79c49b28-fca5-4cda-823c-1ba773eb829e",
             "Value": {
                 "id": "1d8b1010-dde1-4b94-a14e-1403898da331",
                 "resourcePath": "views\\79c49b28-fca5-4cda-823c-1ba773eb829e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e70b26b-4824-47fc-b2fe-c491d4debd9b",
+            "Value": {
+                "id": "d04373e1-74cf-4b9f-a283-248c2401828f",
+                "resourcePath": "sprites\\spr_game_backgorund\\spr_game_backgorund.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,6 +220,14 @@
                 "id": "a83c9c1f-6826-49d8-95c3-1bdd65e2bcab",
                 "resourcePath": "objects\\obj_cactus\\obj_cactus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8c09a818-03b5-4602-9c85-3f68df6d4781",
+            "Value": {
+                "id": "8055ec5b-8c12-4973-ace0-b10f5bfa796e",
+                "resourcePath": "sounds\\Game_ST\\Game_ST.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -284,6 +324,14 @@
                 "id": "c771eacf-dbdd-4e67-8cdc-8d960762a1ba",
                 "resourcePath": "objects\\obj_wall_top\\obj_wall_top.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5862a97-81e1-4c3f-a23f-528dafd43d5e",
+            "Value": {
+                "id": "b7f0b6ed-5494-4660-9018-e1a73943efbe",
+                "resourcePath": "sounds\\Cactus_shot_FX\\Cactus_shot_FX.yy",
+                "resourceType": "GMSound"
             }
         },
         {

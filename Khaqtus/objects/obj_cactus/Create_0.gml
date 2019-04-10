@@ -1,6 +1,6 @@
-alarm[3] = room_speed;
+alarm[3] = 1;
 alarm[2] = 1;
-alarm[1] = room_speed;
+alarm[1] = 1;
 health = 200;
 global.aux = 0;
 global.maxhealth = health;

@@ -27,7 +27,7 @@ repeat(4){
 	var yy = choose(0, room_height);//escolhe teto ou chão
 }
 instance_create_layer(xx, yy, "Instances", obj_humans); // cria um novo humano
-alarm [0] = 3*room_speed; //reseta o alarme para 4 vezes o room_speed que tem o número de frames(60)
+alarm [0] = 3*room_speed; //reseta o alarme para 3 vezes o room_speed que tem o número de frames(60)
 }
 }
 
@@ -43,7 +43,7 @@ repeat(8){
 	var yy = choose(0, room_height);//escolhe teto ou chão
 }
 instance_create_layer(xx, yy, "Instances", obj_humans); // cria um novo humano
-alarm [0] = 2*room_speed; //reseta o alarme para 4 vezes o room_speed que tem o número de frames(60)
+alarm [0] = 2*room_speed; //reseta o alarme para 2 vezes o room_speed que tem o número de frames(60)
 }
 }
 
@@ -59,6 +59,6 @@ repeat(14){
 	var yy = choose(0, room_height);//escolhe teto ou chão
 }
 instance_create_layer(xx, yy, "Instances", obj_humans); // cria um novo humano
-alarm [0] = 2*room_speed; //reseta o alarme para 4 vezes o room_speed que tem o número de frames(60)
+alarm [0] = 2*room_speed; //reseta o alarme para 2 vezes o room_speed que tem o número de frames(60)
 }
 }
